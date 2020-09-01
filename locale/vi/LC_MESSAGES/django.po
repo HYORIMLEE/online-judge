@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmoj\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 18:29+0000\n"
-"PO-Revision-Date: 2020-08-23 18:59\n"
+"POT-Creation-Date: 2020-08-26 05:35+0000\n"
+"PO-Revision-Date: 2020-09-01 00:27\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -18,66 +18,70 @@ msgstr ""
 "X-Crowdin-File-ID: 10\n"
 
 #: dmoj/settings.py:361
+msgid "Catalan"
+msgstr ""
+
+#: dmoj/settings.py:362
 msgid "German"
 msgstr "Tiếng Đức"
 
-#: dmoj/settings.py:362
+#: dmoj/settings.py:363
 msgid "English"
 msgstr "Tiếng Anh"
 
-#: dmoj/settings.py:363
+#: dmoj/settings.py:364
 msgid "Spanish"
 msgstr "Tiếng Tây Ban Nha"
 
-#: dmoj/settings.py:364
+#: dmoj/settings.py:365
 msgid "French"
 msgstr "Tiếng Pháp"
 
-#: dmoj/settings.py:365
+#: dmoj/settings.py:366
 msgid "Croatian"
 msgstr "Tiếng Croatia"
 
-#: dmoj/settings.py:366
+#: dmoj/settings.py:367
 msgid "Hungarian"
 msgstr "Tiếng Hung-ga-ri"
 
-#: dmoj/settings.py:367
+#: dmoj/settings.py:368
 msgid "Japanese"
 msgstr "Tiếng Nhật Bản"
 
-#: dmoj/settings.py:368
+#: dmoj/settings.py:369
 msgid "Korean"
 msgstr "Tiếng Hàn Quốc"
 
-#: dmoj/settings.py:369
+#: dmoj/settings.py:370
 msgid "Brazilian Portuguese"
 msgstr "Tiếng Braxin-Bồ Đào Nha"
 
-#: dmoj/settings.py:370
+#: dmoj/settings.py:371
 msgid "Romanian"
 msgstr "Tiếng Romania"
 
-#: dmoj/settings.py:371
+#: dmoj/settings.py:372
 msgid "Russian"
 msgstr "Tiếng Nga"
 
-#: dmoj/settings.py:372
+#: dmoj/settings.py:373
 msgid "Serbian (Latin)"
 msgstr "Tiếng Séc-bi (Latin)"
 
-#: dmoj/settings.py:373
+#: dmoj/settings.py:374
 msgid "Turkish"
 msgstr "Tiếng Thổ Nhĩ Kỳ"
 
-#: dmoj/settings.py:374
+#: dmoj/settings.py:375
 msgid "Vietnamese"
 msgstr "Tiếng Việt"
 
-#: dmoj/settings.py:375
+#: dmoj/settings.py:376
 msgid "Simplified Chinese"
 msgstr "Tiếng Trung (Giản thể)"
 
-#: dmoj/settings.py:376
+#: dmoj/settings.py:377
 msgid "Traditional Chinese"
 msgstr "Tiếng Trung phồn thể"
 
@@ -225,7 +229,7 @@ msgid "Summary"
 msgstr "Tổng hợp"
 
 #: judge/admin/interface.py:113 judge/models/contest.py:361
-#: judge/models/contest.py:486 judge/models/profile.py:241
+#: judge/models/contest.py:487 judge/models/profile.py:241
 #: judge/models/profile.py:265
 msgid "user"
 msgstr "thành viên"
@@ -969,7 +973,7 @@ msgid "Change lock status of contest"
 msgstr ""
 
 #: judge/models/contest.py:352 judge/models/contest.py:450
-#: judge/models/contest.py:487 judge/models/contest.py:509
+#: judge/models/contest.py:488 judge/models/contest.py:510
 #: judge/models/submission.py:84
 msgid "contest"
 msgstr "cuộc thi"
@@ -1037,14 +1041,14 @@ msgstr "tham gia cuộc thi"
 msgid "contest participations"
 msgstr "tham gia cuộc thi"
 
-#: judge/models/contest.py:449 judge/models/contest.py:471
-#: judge/models/contest.py:510 judge/models/problem.py:421
+#: judge/models/contest.py:449 judge/models/contest.py:472
+#: judge/models/contest.py:511 judge/models/problem.py:421
 #: judge/models/problem.py:426 judge/models/problem.py:444
 #: judge/models/problem_data.py:35
 msgid "problem"
 msgstr "vấn đề"
 
-#: judge/models/contest.py:451 judge/models/contest.py:475
+#: judge/models/contest.py:451 judge/models/contest.py:476
 #: judge/models/problem.py:129
 msgid "points"
 msgstr "điểm"
@@ -1053,7 +1057,7 @@ msgstr "điểm"
 msgid "partial"
 msgstr "một phần"
 
-#: judge/models/contest.py:453 judge/models/contest.py:476
+#: judge/models/contest.py:453 judge/models/contest.py:477
 msgid "is pretested"
 msgstr "được test trước"
 
@@ -1065,71 +1069,71 @@ msgstr "thứ tự"
 msgid "output prefix length override"
 msgstr "ghi đè độ dài output prefix"
 
-#: judge/models/contest.py:456
+#: judge/models/contest.py:457
 msgid "Maximum number of submissions for this problem, or leave blank for no limit."
 msgstr ""
 
-#: judge/models/contest.py:459
+#: judge/models/contest.py:460
 msgid "Why include a problem you can't submit to?"
 msgstr "Tại sao bạn không thể nộp bài cho một bài tập?"
 
-#: judge/models/contest.py:464
+#: judge/models/contest.py:465
 msgid "contest problem"
 msgstr "đề bài của cuộc thi"
 
-#: judge/models/contest.py:465
+#: judge/models/contest.py:466
 msgid "contest problems"
 msgstr "đề bài của cuộc thi"
 
-#: judge/models/contest.py:469 judge/models/submission.py:201
+#: judge/models/contest.py:470 judge/models/submission.py:201
 msgid "submission"
 msgstr "nộp bài"
 
-#: judge/models/contest.py:473 judge/models/contest.py:488
+#: judge/models/contest.py:474 judge/models/contest.py:489
 msgid "participation"
 msgstr "tham dự"
 
-#: judge/models/contest.py:477
+#: judge/models/contest.py:478
 msgid "Whether this submission was ran only on pretests."
 msgstr "Bài nộp này chỉ chỉ chạy trên bài thử."
 
-#: judge/models/contest.py:481
+#: judge/models/contest.py:482
 msgid "contest submission"
 msgstr "nộp bài thi"
 
-#: judge/models/contest.py:482
+#: judge/models/contest.py:483
 msgid "contest submissions"
 msgstr "nộp bài thi"
 
-#: judge/models/contest.py:490
+#: judge/models/contest.py:491
 msgid "rank"
 msgstr "hạng"
 
-#: judge/models/contest.py:491
+#: judge/models/contest.py:492
 msgid "rating"
 msgstr "đánh giá"
 
-#: judge/models/contest.py:492
+#: judge/models/contest.py:493
 msgid "volatility"
 msgstr "volative"
 
-#: judge/models/contest.py:493
+#: judge/models/contest.py:494
 msgid "last rated"
 msgstr "lần xếp hạng cuối"
 
-#: judge/models/contest.py:497
+#: judge/models/contest.py:498
 msgid "contest rating"
 msgstr "xếp hạng cuộc thi"
 
-#: judge/models/contest.py:498
+#: judge/models/contest.py:499
 msgid "contest ratings"
 msgstr "xếp hạng cuộc thi"
 
-#: judge/models/contest.py:517
+#: judge/models/contest.py:518
 msgid "contest moss result"
 msgstr "kết quả kỳ thi moss"
 
-#: judge/models/contest.py:518
+#: judge/models/contest.py:519
 msgid "contest moss results"
 msgstr "kết quả kỳ thi moss"
 

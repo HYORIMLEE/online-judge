@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmoj\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 18:29+0000\n"
-"PO-Revision-Date: 2020-08-23 18:58\n"
+"POT-Creation-Date: 2020-08-26 05:35+0000\n"
+"PO-Revision-Date: 2020-09-01 00:26\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -18,66 +18,70 @@ msgstr ""
 "X-Crowdin-File-ID: 10\n"
 
 #: dmoj/settings.py:361
-msgid "German"
+msgid "Catalan"
 msgstr ""
 
 #: dmoj/settings.py:362
-msgid "English"
+msgid "German"
 msgstr ""
 
 #: dmoj/settings.py:363
-msgid "Spanish"
+msgid "English"
 msgstr ""
 
 #: dmoj/settings.py:364
-msgid "French"
+msgid "Spanish"
 msgstr ""
 
 #: dmoj/settings.py:365
-msgid "Croatian"
+msgid "French"
 msgstr ""
 
 #: dmoj/settings.py:366
-msgid "Hungarian"
+msgid "Croatian"
 msgstr ""
 
 #: dmoj/settings.py:367
-msgid "Japanese"
+msgid "Hungarian"
 msgstr ""
 
 #: dmoj/settings.py:368
-msgid "Korean"
+msgid "Japanese"
 msgstr ""
 
 #: dmoj/settings.py:369
-msgid "Brazilian Portuguese"
+msgid "Korean"
 msgstr ""
 
 #: dmoj/settings.py:370
-msgid "Romanian"
+msgid "Brazilian Portuguese"
 msgstr ""
 
 #: dmoj/settings.py:371
-msgid "Russian"
+msgid "Romanian"
 msgstr ""
 
 #: dmoj/settings.py:372
-msgid "Serbian (Latin)"
+msgid "Russian"
 msgstr ""
 
 #: dmoj/settings.py:373
-msgid "Turkish"
+msgid "Serbian (Latin)"
 msgstr ""
 
 #: dmoj/settings.py:374
-msgid "Vietnamese"
+msgid "Turkish"
 msgstr ""
 
 #: dmoj/settings.py:375
-msgid "Simplified Chinese"
+msgid "Vietnamese"
 msgstr ""
 
 #: dmoj/settings.py:376
+msgid "Simplified Chinese"
+msgstr ""
+
+#: dmoj/settings.py:377
 msgid "Traditional Chinese"
 msgstr ""
 
@@ -233,7 +237,7 @@ msgid "Summary"
 msgstr ""
 
 #: judge/admin/interface.py:113 judge/models/contest.py:361
-#: judge/models/contest.py:486 judge/models/profile.py:241
+#: judge/models/contest.py:487 judge/models/profile.py:241
 #: judge/models/profile.py:265
 msgid "user"
 msgstr ""
@@ -982,7 +986,7 @@ msgid "Change lock status of contest"
 msgstr ""
 
 #: judge/models/contest.py:352 judge/models/contest.py:450
-#: judge/models/contest.py:487 judge/models/contest.py:509
+#: judge/models/contest.py:488 judge/models/contest.py:510
 #: judge/models/submission.py:84
 msgid "contest"
 msgstr ""
@@ -1050,14 +1054,14 @@ msgstr ""
 msgid "contest participations"
 msgstr ""
 
-#: judge/models/contest.py:449 judge/models/contest.py:471
-#: judge/models/contest.py:510 judge/models/problem.py:421
+#: judge/models/contest.py:449 judge/models/contest.py:472
+#: judge/models/contest.py:511 judge/models/problem.py:421
 #: judge/models/problem.py:426 judge/models/problem.py:444
 #: judge/models/problem_data.py:35
 msgid "problem"
 msgstr ""
 
-#: judge/models/contest.py:451 judge/models/contest.py:475
+#: judge/models/contest.py:451 judge/models/contest.py:476
 #: judge/models/problem.py:129
 msgid "points"
 msgstr ""
@@ -1066,7 +1070,7 @@ msgstr ""
 msgid "partial"
 msgstr ""
 
-#: judge/models/contest.py:453 judge/models/contest.py:476
+#: judge/models/contest.py:453 judge/models/contest.py:477
 msgid "is pretested"
 msgstr ""
 
@@ -1078,71 +1082,71 @@ msgstr ""
 msgid "output prefix length override"
 msgstr ""
 
-#: judge/models/contest.py:456
+#: judge/models/contest.py:457
 msgid "Maximum number of submissions for this problem, or leave blank for no limit."
 msgstr ""
 
-#: judge/models/contest.py:459
+#: judge/models/contest.py:460
 msgid "Why include a problem you can't submit to?"
 msgstr ""
 
-#: judge/models/contest.py:464
+#: judge/models/contest.py:465
 msgid "contest problem"
 msgstr ""
 
-#: judge/models/contest.py:465
+#: judge/models/contest.py:466
 msgid "contest problems"
 msgstr ""
 
-#: judge/models/contest.py:469 judge/models/submission.py:201
+#: judge/models/contest.py:470 judge/models/submission.py:201
 msgid "submission"
 msgstr ""
 
-#: judge/models/contest.py:473 judge/models/contest.py:488
+#: judge/models/contest.py:474 judge/models/contest.py:489
 msgid "participation"
 msgstr ""
 
-#: judge/models/contest.py:477
+#: judge/models/contest.py:478
 msgid "Whether this submission was ran only on pretests."
 msgstr ""
 
-#: judge/models/contest.py:481
+#: judge/models/contest.py:482
 msgid "contest submission"
 msgstr ""
 
-#: judge/models/contest.py:482
+#: judge/models/contest.py:483
 msgid "contest submissions"
 msgstr ""
 
-#: judge/models/contest.py:490
+#: judge/models/contest.py:491
 msgid "rank"
 msgstr ""
 
-#: judge/models/contest.py:491
+#: judge/models/contest.py:492
 msgid "rating"
 msgstr ""
 
-#: judge/models/contest.py:492
+#: judge/models/contest.py:493
 msgid "volatility"
 msgstr ""
 
-#: judge/models/contest.py:493
+#: judge/models/contest.py:494
 msgid "last rated"
 msgstr ""
 
-#: judge/models/contest.py:497
+#: judge/models/contest.py:498
 msgid "contest rating"
 msgstr ""
 
-#: judge/models/contest.py:498
+#: judge/models/contest.py:499
 msgid "contest ratings"
 msgstr ""
 
-#: judge/models/contest.py:517
+#: judge/models/contest.py:518
 msgid "contest moss result"
 msgstr ""
 
-#: judge/models/contest.py:518
+#: judge/models/contest.py:519
 msgid "contest moss results"
 msgstr ""
 
